@@ -1,0 +1,50 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Configuration files
+/config/database.php
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Uploaded files
+/assets/images/cars/*
+!/assets/images/cars/.gitkeep
+/assets/images/payments/*
+!/assets/images/payments/.gitkeep
+
+# Cache and logs
+/logs/*
+!/logs/.gitkeep
+/cache/*
+!/cache/.gitkeep
+
+# Temporary files
+*.log
+*.cache
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
